@@ -16,23 +16,33 @@ Uma API RESTful simples para gerenciamento de tarefas (To-Do List), desenvolvida
 
 ## 💻 Como rodar o projeto
 
+
+
 ### 1. Clone o repositório
 
 ```bash
 git clone https://github.com/seu-usuario/seu-repositorio.git
 cd flask-todo-api
 ```
-### 2. Execute o projeto
+
+### 2. 📦 Dependências
+Flask
+pymongo
+python-dotenv
+
+```bash
+pip install flask pymongo python-dotenv
+````
+
+
+### 3. Execute o projeto
 ```bash
 python main.py
 ````
 Acesse em:
 http://localhost:5000
 
-### 3 📦 Dependências
-Flask
-pymongo
-python-dotenv
+
 
 ### 4 🧪 Testando os endpoints
 Use ferramentas como Postman, Insomnia ou curl para testar os endpoints:
