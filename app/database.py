@@ -9,3 +9,8 @@ def connect_db(app):
     )
 
     mongo.init_app(app)
+
+
+# poderia ter colocado a url em um arquivo .env, mas resolvi deixar assim
+
+# aqui eu fiz a conexão com o banco de dados, por meio do mongo antlas
